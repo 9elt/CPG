@@ -1,7 +1,12 @@
 [package]
-name = "salty"
+name = "cpg"
 version = "0.1.0"
 edition = "2021"
+
+description = "a CLI that consistently generates passwords given the same input."
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/9elt/CPG"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

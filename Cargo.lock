@@ -164,6 +164,17 @@ dependencies = [
 ]
 
 [[package]]
+name = "cpg"
+version = "0.1.0"
+dependencies = [
+ "bcrypt-pbkdf",
+ "clap",
+ "home",
+ "rand",
+ "time-elapsed",
+]
+
+[[package]]
 name = "cpufeatures"
 version = "0.2.6"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -381,17 +392,6 @@ dependencies = [
  "libc",
  "linux-raw-sys",
  "windows-sys",
-]
-
-[[package]]
-name = "salty"
-version = "0.1.0"
-dependencies = [
- "bcrypt-pbkdf",
- "clap",
- "home",
- "rand",
- "time-elapsed",
 ]
 
 [[package]]
