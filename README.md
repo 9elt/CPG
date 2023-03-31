@@ -1,7 +1,7 @@
 # CPG
 #### Consistent Password Generator.
 
-> this project is under development, and hasn't been reviewd by a cryptographer [other limitations](#limitations)
+> this project is under development, and hasn't been reviewed by a cryptographer [other limitations](#limitations)
 
 A CLI that consistently generates passwords given the same input.
 
@@ -43,7 +43,7 @@ cargo install cpg
 > ! this is an example, you should use stronger inputs
 
 ```
-[9elt@salty ~]$ salty -p mybirthday iloveyou "mickey mouse"
+[9elt@salty ~]$ cpg -p mybirthday iloveyou "mickey mouse"
 
 mybirthday => 0#B[?7WZbufDrh#z{nJXPD8G6pP]BGQk
 iloveyou => g3s5PKVbm1NK8UZFlyjxgsA%g5urG05#
