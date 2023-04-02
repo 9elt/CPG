@@ -43,7 +43,7 @@ see:
 > this is an example, you should use stronger inputs
 
 ```
-[9elt@salty ~]$ cpg -p mybirthday iloveyou "mickey mouse"
+[9elt@arch ~]$ cpg -p mybirthday iloveyou "mickey mouse"
 
 mybirthday => 0#B[?7WZbufDrh#z{nJXPD8G6pP]BGQk
 iloveyou => g3s5PKVbm1NK8UZFlyjxgsA%g5urG05#
@@ -52,10 +52,8 @@ mickey mouse => 1,it6rT^%=#geUO853q|€%B#@T4B"fjy
 
 ### limitations
 
-* there is no salt encryption method yet,
-if you want to share a salt across devices, make sure
-to encrypt it first.
+* there isn't a salt encryption method yet.
 
-* hasn't been tested on windows.
+* not tested on windows.
 
 * doesn't clean bash_history
