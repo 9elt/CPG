@@ -38,9 +38,9 @@ cargo install cpg
 
 `--help` usage help
 
-`--version` salty version
+`--version` cpg version
 
-> ! this is an example, you should use stronger inputs
+> this is an example, you should use stronger inputs
 
 ```
 [9elt@salty ~]$ cpg -p mybirthday iloveyou "mickey mouse"
@@ -57,3 +57,5 @@ if you want to share a salt across devices, make sure
 to encrypt it first.
 
 * hasn't been tested on windows.
+
+* doesn't clean bash_history
