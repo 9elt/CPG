@@ -11,7 +11,7 @@ CPG is not a password manager, but can be used
 as an **additional security layer** on top of it.
 
 The actual password used to sign up, and sign in, to services
-**wont be stored anywhere** as it will be recreated every time instead.
+**won't be stored anywhere** as it will be recreated every time instead.
 
 ```
  input    >       salt    =>    password
@@ -27,7 +27,7 @@ The actual password used to sign up, and sign in, to services
 ```
 cargo install cpg
 ```
-
+see: 
 [installing binaries with cargo install](https://doc.rust-lang.org/book/ch14-04-installing-binaries.html), [install rust and cargo](https://doc.rust-lang.org/cargo/getting-started/installation.html)
 
 ## basic usage
